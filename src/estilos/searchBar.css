@@ -1,0 +1,27 @@
+.contenedor-principal{
+    margin-bottom: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-div{
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.input-busqueda{
+    border-radius: 6px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+
+    
+}
+.boton-input{       
+    margin-top: 15px;
+    background-color:rgba(63, 2, 185, 0.774) ;
+}
+
+.boton-input:hover{
+    background-color: rgba(36, 0, 102, 0.596);
+}

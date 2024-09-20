@@ -1,0 +1,40 @@
+.section-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .lead {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .contact-info h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: background-color 0.9s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: #4400ff;
+    color: white;
+  }
+  .contenedor-seccion-contactanos{
+    margin-top: 200px;
+  }

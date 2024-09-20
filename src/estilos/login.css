@@ -1,0 +1,42 @@
+/* Login Section */
+#login {
+    background-color: #f4f4f9;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+  }
+ 
+  .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-control {
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .text-center a {
+    color: #007bff;
+  }
+  
+  .text-center a:hover {
+    text-decoration: underline;
+  }

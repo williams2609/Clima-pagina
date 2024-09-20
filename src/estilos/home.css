@@ -1,0 +1,220 @@
+.contenedor-home {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Sección hero */
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Oscurecer la imagen de fondo */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    color: white;
+  }
+  .form{
+    flex-direction: column;
+  }
+  
+  #hero p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  #hero input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #hero button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #hero button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Sección de información meteorológica */
+  #weather-info {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  #weather-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #weather-info .card {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  #weather-info .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #weather-info .display-4 {
+    font-size: 3rem;
+  }
+  
+  #weather-info p {
+    margin-bottom: 1rem;
+  }
+  
+  #weather-info img {
+    max-width: 100px;
+  }
+  
+  /* Sección de pronóstico extendido */
+  #forecast {
+    padding: 3rem 0;
+  }
+  
+  #forecast h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #forecast .card {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 1.5rem;
+  }
+  
+  #forecast .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #forecast img {
+    max-width: 50px;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Sección de consejos climáticos */
+  #extra-info {
+    background-color: #f8f9fa;
+    padding: 3rem 0;
+  }
+  
+  #extra-info h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #extra-info .card {
+    border: none;
+    background-color: white;
+  }
+  
+  #extra-info .btn-link {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  #extra-info .btn-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sección de llamado a la acción */
+  #call-to-action {
+    background-color: #007bff;
+    color: white;
+    padding: 3rem 0;
+  }
+  
+  #call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #call-to-action button {
+    padding: 0.75rem 1.5rem;
+    background-color: white;
+    color: #007bff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #call-to-action button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  footer h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer p {
+    margin-bottom: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    #hero p {
+      font-size: 1.2rem;
+    }
+  
+    #forecast .col-md-2 {
+      margin-bottom: 1rem;
+    }
+  }
+  .ml-3{
+    margin-top: 20px;
+  }
+  .input-home{
+    margin-bottom: 20px;
+  }
